@@ -7,12 +7,11 @@
 
 ## What I learned/used 
 ### Cypress 
-* Cypress
-    * installing
-    * config
-    * Create project
-    * Command Chaining
-        * more than one command combine
+* Best Practices
+    * Getting elements
+        * Do not select by id's or classes. Use data attributes. (data hyphen test attribute: [data-test='nameDataTest'])
+            * the ids and classes can change, and you cypress test is going to stop working.
+
     
 
 
