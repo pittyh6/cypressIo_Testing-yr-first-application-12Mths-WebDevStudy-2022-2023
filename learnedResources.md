@@ -14,6 +14,21 @@
     * error npm run dev: [link](https://tutorial.tips/how-to-fix-failed-to-load-swc-binary-nextjs/)
         * npm install next@canary
 
+    * after create your test
+        * on terminal
+            * npx cypress open
+            * E2E Testing
+            * chrome
+            * Start E2E Testing in Chrome
+            * If you get a error on cypress, check items below.
+                * verify if your dev server is running, if not
+                    * npm run dev
+                * an extra cypress open (you need have 2 cypress windows opened).
+                    * npx cypress open
+            
+
+
+
 
 
 
