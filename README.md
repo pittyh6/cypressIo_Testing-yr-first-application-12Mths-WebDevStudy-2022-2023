@@ -8,8 +8,8 @@
 * Online courses, challenges and creation of my own projects.
 
 ## What I learned/used (Link for details)
-* Cypress[link](https://github.com/pittyh6/cypressIo_Testing-yr-first-application-12Mths-WebDevStudy-2022-2023/blob/master/learnedCypress.md)
-* Resources[link](https://github.com/pittyh6/cypressIo_Testing-yr-first-application-12Mths-WebDevStudy-2022-2023/blob/master/learnedResources.md)
+* Cypress [link](https://github.com/pittyh6/cypressIo_Testing-yr-first-application-12Mths-WebDevStudy-2022-2023/blob/master/learnedCypress.md)
+* Resources [link](https://github.com/pittyh6/cypressIo_Testing-yr-first-application-12Mths-WebDevStudy-2022-2023/blob/master/learnedResources.md)
 <!--
 * JavaScript ES6/ES2015 [link](https://github.com/pittyh6/JohnsHopkinsUni_html-css-and-Javascript-for-Web-Developers_2-12Mths-WebDevStudy-2022-2023/blob/master/learnedES6-ES2015.md)
 -->
