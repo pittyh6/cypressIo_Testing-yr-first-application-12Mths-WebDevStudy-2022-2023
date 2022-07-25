@@ -8,13 +8,13 @@
 * Online courses, challenges and creation of my own projects.
 
 ## What I learned/used (Link for details)
-* Cypress[link](https://github.com/pittyh6/lambdaTest_cypress_12Mths-WebDevStudy-2022-2023/blob/master/learnedCypress.md)
-* Resources[link](https://github.com/pittyh6/lambdaTest_cypress_12Mths-WebDevStudy-2022-2023/blob/master/learnedResources.md)
+* Cypress[link](https://github.com/pittyh6/cypressIo_Testing-yr-first-application-12Mths-WebDevStudy-2022-2023/blob/master/learnedCypress.md)
+* Resources[link](https://github.com/pittyh6/cypressIo_Testing-yr-first-application-12Mths-WebDevStudy-2022-2023/blob/master/learnedResources.md)
 <!--
 * JavaScript ES6/ES2015 [link](https://github.com/pittyh6/JohnsHopkinsUni_html-css-and-Javascript-for-Web-Developers_2-12Mths-WebDevStudy-2022-2023/blob/master/learnedES6-ES2015.md)
 -->
 ## Project + Result
-* (V.1) - Getting started with Cypress Testing [link](https://github.com/pittyh6/lambdaTest_cypress_12Mths-WebDevStudy-2022-2023/blob/master/learnedCypress.md)
+* (V.1) - Getting started with Cypress Testing [link](https://github.com/pittyh6/cypressIo_Testing-yr-first-application-12Mths-WebDevStudy-2022-2023/blob/master/learnedCypress.md)
 
 
 ## Previous Project
@@ -27,7 +27,7 @@
 <img src= Documentation/jira.png  height="90" width="100" ><img src= Documentation/vscode.png  height="90" width="100"><img src= Documentation/html.png  height="90" width="90"><img src= Documentation/css.png  height="90" width="90"><img src= Documentation/photoshop.png  height="90" width="100"><img src= Documentation/js.png  height="90" width="100"><img src= Documentation/jquery.png  height="90" width="100">
 
 ## Management Tools
-* Jira(Sprints) [link](https://github.com/pittyh6/lambdaTest_cypress_12Mths-WebDevStudy-2022-2023/tree/master/Sprint)
+* Jira(Sprints) [link](https://github.com/pittyh6/cypressIo_Testing-yr-first-application-12Mths-WebDevStudy-2022-2023/blob/master/Sprint)
 
 <br>
 <br>

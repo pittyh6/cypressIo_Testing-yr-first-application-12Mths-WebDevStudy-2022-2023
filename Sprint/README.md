@@ -2,9 +2,9 @@
 
 # Jira Sprints
 ## First Sprint
-* Start 01/07/2022  
-* End Plan 31/07/2022
-* Project ended by 24/07/2022
+* Start 26/07/2022  
+* End Plan ?Between Sprints
+* Project ended by 
 
 
 ## What I have done
