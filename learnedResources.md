@@ -9,5 +9,6 @@
 ### Resources
 * learning
     * Documentation: [link](https://docs.cypress.io/guides/overview/why-cypress)
+    * getting started: [link](https://learn.cypress.io/testing-your-first-application/app-install-and-overview)
 
 ![End Banner](/Documentation/botton-1200x350.gif)
