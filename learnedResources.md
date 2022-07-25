@@ -10,5 +10,11 @@
 * learning
     * Documentation: [link](https://docs.cypress.io/guides/overview/why-cypress)
     * getting started: [link](https://learn.cypress.io/testing-your-first-application/app-install-and-overview)
+        * repo with application o be tested: [link](https://learn.cypress.io/testing-your-first-application/app-install-and-overview)
+    * error npm run dev: [link](https://tutorial.tips/how-to-fix-failed-to-load-swc-binary-nextjs/)
+        * npm install next@canary
+
+
+
 
 ![End Banner](/Documentation/botton-1200x350.gif)
