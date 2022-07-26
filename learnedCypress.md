@@ -16,6 +16,9 @@
     * custom commands
         * Cypress.Commands.add("nameCommand", (selector) => { return cy.get(`[data-test=${selector}]`) })
         * Cypress.Commands.add("getBydata", (selector) => { return cy.get(`[data-test=${selector}]`) })
+    * test User Journey Test
+    * Testing the correct URL or pathname
+    
 
 
 

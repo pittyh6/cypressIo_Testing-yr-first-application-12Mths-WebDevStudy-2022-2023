@@ -15,6 +15,7 @@
         * it.only("...", () => {....})
     * .eq() when it is a array (0 ... array.length)
         * ... .eq(1)
+    * .last()
     * beforeEach(() => { ... }) to run every time before a test.
         *  beforeEach(() =>{ cy.visit('http://localhost:3000') })
     * .type("typehereWhatYouWantTo") write in the field
@@ -22,6 +23,10 @@
     * .should("exist") the element exist in the page, like a successful subscription
     * .should("not.exist") the element do NOT exist in the page, like a successful subscription
     * .click() click in a button
+    * .location("pathname").should("eq","/test-you-first-application")
+        * location("pathname")  the location API to get the “pathname” which is the URL of our application.
+    
+    
 
 
 

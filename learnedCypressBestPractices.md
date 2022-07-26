@@ -11,7 +11,7 @@
     * Getting elements
         * Do not select by id's or classes. Use data attributes. (data hyphen test attribute: [data-test='nameDataTest'])
             * the ids and classes can change, and you cypress test is going to stop working.
-
+        
     
 
 
