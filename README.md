@@ -8,13 +8,21 @@
 * Online courses, challenges and creation of my own projects.
 
 ## What I learned/used (Link for details)
+* Projects [link](https://github.com/pittyh6/cypressIo_Testing-yr-first-application-12Mths-WebDevStudy-2022-2023/tree/master/cypress-realworld-testing-course-app-start/cypress)
 * Cypress [link](https://github.com/pittyh6/cypressIo_Testing-yr-first-application-12Mths-WebDevStudy-2022-2023/blob/master/learnedCypress.md)
+* Cypress Best Practices [link](https://github.com/pittyh6/cypressIo_Testing-yr-first-application-12Mths-WebDevStudy-2022-2023/blob/master/learnedCypressBestPractices.md)
+* Cypress Commands [link](https://github.com/pittyh6/cypressIo_Testing-yr-first-application-12Mths-WebDevStudy-2022-2023/blob/master/learnedCypressCommands.md)
+* Cypress Config & Start [link](https://github.com/pittyh6/cypressIo_Testing-yr-first-application-12Mths-WebDevStudy-2022-2023/blob/master/learnedCypressConfigStart.md)
 * Resources [link](https://github.com/pittyh6/cypressIo_Testing-yr-first-application-12Mths-WebDevStudy-2022-2023/blob/master/learnedResources.md)
 <!--
 * JavaScript ES6/ES2015 [link](https://github.com/pittyh6/JohnsHopkinsUni_html-css-and-Javascript-for-Web-Developers_2-12Mths-WebDevStudy-2022-2023/blob/master/learnedES6-ES2015.md)
 -->
 ## Project + Result
 * (V.1) - Getting started with Cypress Testing [link](https://github.com/pittyh6/cypressIo_Testing-yr-first-application-12Mths-WebDevStudy-2022-2023/blob/master/learnedCypress.md)
+* (V.2) - Cypress and writing your first test with Cypress Testing [link](https://github.com/pittyh6/cypressIo_Testing-yr-first-application-12Mths-WebDevStudy-2022-2023/blob/master/learnedCypress.md) [link](https://github.com/pittyh6/cypressIo_Testing-yr-first-application-12Mths-WebDevStudy-2022-2023/tree/master/cypress-realworld-testing-course-app-start/cypress/e2e)
+* (V.3) - Testing forms and custom Cypress commands with Cypress Testing [link](https://github.com/pittyh6/cypressIo_Testing-yr-first-application-12Mths-WebDevStudy-2022-2023/tree/master/cypress-realworld-testing-course-app-start/cypress/e2e)
+* (V.4) - How to test multiple pages with Cypress Testing [link](https://github.com/pittyh6/cypressIo_Testing-yr-first-application-12Mths-WebDevStudy-2022-2023/tree/master/cypress-realworld-testing-course-app-start/cypress/e2e)
+* (V.5) - How to test user journeys with Cypress Testing [link](https://github.com/pittyh6/cypressIo_Testing-yr-first-application-12Mths-WebDevStudy-2022-2023/tree/master/cypress-realworld-testing-course-app-start/cypress/e2e)
 
 
 ## Previous Project
