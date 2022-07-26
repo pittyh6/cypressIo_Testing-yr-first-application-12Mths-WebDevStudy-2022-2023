@@ -13,7 +13,9 @@
     * Create project
     * Command Chaining
         * more than one command combine
-    
+    * custom commands
+        * Cypress.Commands.add("nameCommand", (selector) => { return cy.get(`[data-test=${selector}]`) })
+        * Cypress.Commands.add("getBydata", (selector) => { return cy.get(`[data-test=${selector}]`) })
 
 
 

@@ -17,7 +17,21 @@
         * ... .eq(1)
     * beforeEach(() => { ... }) to run every time before a test.
         *  beforeEach(() =>{ cy.visit('http://localhost:3000') })
-        
+    * .type("typehereWhatYouWantTo") write in the field
+    * .should('be.visible') the element is visible
+    * .should("exist") the element exist in the page, like a successful subscription
+    * .should("not.exist") the element do NOT exist in the page, like a successful subscription
+    * .click() click in a button
+
+
+
+    
+    * custom commands
+        * support folder
+            * commands.ts
+                * Cypress.Commands.add("nameCommand", (selector) => { return cy.get(`[data-test=${selector}]`) })
+
+
 
 
 
