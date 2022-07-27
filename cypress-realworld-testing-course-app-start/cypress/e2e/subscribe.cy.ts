@@ -3,13 +3,14 @@
 import { eq } from "cypress/types/lodash"
 
 //vvvv my way vvvv
-describe.only("Subscribe to newsletter form", () => {
+describe("Subscribe to newsletter form", () => {
     // input field for newsletter
     const inputEmailNewsletter = () => cy.getByType('email')
     //button subscribe to newsletter
     const subscribeBtn = () => cy.getByType('submit')
     // msg sucess to subscribe to newsletter
-    const msgSuccess = () => cy.getByData("success-message")
+    const msgEmailSuccess = () => cy.getByData("success-message")
+    const msgEmailError = () => cy.getByData("error-message") //Email is required
 
     // email valid
     const validEmail = 'test@uol.com'
@@ -26,17 +27,40 @@ describe.only("Subscribe to newsletter form", () => {
             if(i==0){
                 inputEmailNewsletter().eq(i).type(validEmail)
                 subscribeBtn().eq(i).click()
-                msgSuccess().contains('Success: '+ validEmail + ' has been successfully subscribed')
+                msgEmailSuccess().contains('Success: '+ validEmail + ' has been successfully subscribed')
             }else if(i==1){
                 inputEmailNewsletter().eq(i).type(validEmail)
                 subscribeBtn().eq(i).click()
                 cy.location("href").should("include","/?email-address=test%40uol.com")
             }else{
-
+                console.log("ERROR - could not find the subscribe input and/or buttom")
             }
-        }
-        
-
+        }      
+    })
+    it.only('subscribe invalid email', () => {
+        for(let i =0; i< 2; i++){
+            if(i==0){
+                inputEmailNewsletter().eq(i).type(invalidEmail)
+                subscribeBtn().eq(i).click()
+                msgEmailError().should('not.exist')
+                msgEmailSuccess().should('not.exist')
+                // cy.on('window:alert', (txtAlert) => {
+                //     console.log("entrouuuuu")
+                //     expect(txtAlert).to.contains('Please include a @ ')
+                // })
+            }else if(i==1){
+                inputEmailNewsletter().eq(i).type(invalidEmail)
+                subscribeBtn().eq(i).click()
+                msgEmailError().should('not.exist')
+                msgEmailSuccess().should('not.exist')
+                // cy.on('window:alert', (txtAlert) => {
+                //     console.log("entrouuuuu")
+                //     expect(txtAlert).to.contains('Please include a @ ')
+                // })
+            }else{
+                console.log("ERROR - could not find the subscribe input and/or buttom")
+            }
+        }      
     })
 })
 
