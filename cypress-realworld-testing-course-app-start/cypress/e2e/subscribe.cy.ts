@@ -10,13 +10,13 @@ describe("Subscribe to newsletter form", () => {
     const subscribeBtn = () => cy.getByType('submit')
     // msg sucess to subscribe to newsletter
     const msgEmailSuccess = () => cy.getByData("success-message")
-    const msgEmailError = () => cy.getByData("error-message") //Email is required
+    const msgEmailError = () => cy.getByData("error-message") 
 
     // email valid
     const validEmail = 'test@uol.com'
     const invalidEmail = 'testuol.com'
     const subscribedEmail = 'john@example.com'
-    const emptyEmail = ''
+    const emptyEmail = ' '
 
     beforeEach(() =>{
         cy.visit('http://localhost:3000')
@@ -37,7 +37,7 @@ describe("Subscribe to newsletter form", () => {
             }
         }      
     })
-    it.only('subscribe invalid email', () => {
+    it('subscribe invalid email', () => {
         for(let i =0; i< 2; i++){
             if(i==0){
                 inputEmailNewsletter().eq(i).type(invalidEmail)
@@ -57,6 +57,21 @@ describe("Subscribe to newsletter form", () => {
                 //     console.log("entrouuuuu")
                 //     expect(txtAlert).to.contains('Please include a @ ')
                 // })
+            }else{
+                console.log("ERROR - could not find the subscribe input and/or buttom")
+            }
+        }      
+    })
+    it.only('subscribe empty email', () => {
+        for(let i =0; i< 2; i++){
+            if(i==0){
+                inputEmailNewsletter().eq(i).type(emptyEmail)
+                subscribeBtn().eq(i).click()
+                msgEmailError().contains('Email is required')
+            }else if(i==1){
+                inputEmailNewsletter().eq(i).type(emptyEmail)
+                subscribeBtn().eq(i).click()
+                msgEmailError().contains('Email is required')
             }else{
                 console.log("ERROR - could not find the subscribe input and/or buttom")
             }
