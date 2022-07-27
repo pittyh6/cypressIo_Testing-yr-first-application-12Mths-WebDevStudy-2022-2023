@@ -29,7 +29,7 @@
                 * mobile
                 * desktop
         * concatenation
-
+        * have.class
 
 
    

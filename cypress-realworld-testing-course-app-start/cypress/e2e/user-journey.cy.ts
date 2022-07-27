@@ -22,4 +22,10 @@ describe("User Journey", () => {
         cy.location("pathname").should("eq", "/")
 
     })
+    it('verify homepage complete courses lessons is in bluebg',() => {
+        cy.getByData("lesson-complete-0").should('have.class', 'bg-blue-600')
+    })
+    it('verify homepage NOT complete courses lessons is in whitebg',() => {
+        cy.getByData("lesson-upcoming-0").should('have.class', 'bg-white')
+    })
 })
