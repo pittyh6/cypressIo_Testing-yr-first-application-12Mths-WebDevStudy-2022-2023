@@ -18,6 +18,12 @@
         * Cypress.Commands.add("getBydata", (selector) => { return cy.get(`[data-test=${selector}]`) })
     * test User Journey Test
     * Testing the correct URL or pathname
+
+    * byMySelf
+        * variables
+        * forLoop
+        * if/else
+        * functions
     
 
 
