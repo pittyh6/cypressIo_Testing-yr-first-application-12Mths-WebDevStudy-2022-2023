@@ -4,7 +4,9 @@ Cypress.Commands.add("getByData", (selector) => {
     return cy.get(`[data-test=${selector}]`) 
 })
 
-
+Cypress.Commands.add("getByTabIndex", (selector) => { 
+    return cy.get(`[tabindex=${selector}]`) 
+})
 // ***********************************************
 // This example commands.ts shows you how to
 // create various custom commands and overwrite
